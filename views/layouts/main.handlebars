@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>The Boom</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav class="navbar navbar-light bg-light">
@@ -11,8 +12,8 @@
       <img src="http://theboom.com/v/images/theBoomLogoScreen.png" width="160" height="50" alt="">
     </a>
 
-    <large class="consumer.handlebars">Consumer</large>
-    <large class="professional.handlebars">Professional</large>
+    <a style="color: black" href="consumers"><large>Consumer</large></a>
+    <a style="color: black" href="professional"><large>Professional</large></a>
     <large href="">About Us</large>
 
     <button class="btn-success" type="button" name="button">
@@ -21,17 +22,20 @@
 
   </nav>
     {{{body}}}
-  <nav class="container mt-2 mb-5">
-    <a style="color: black" href="/"><span><small>Home</small></span></a>
-    <a style="color: black" href="consumers"><span><small>Consumer</small></span></a>
-    <a style="color: black" href="professional"><span><small>Professional</small></span></a>
-    <a style="color: black" href="#"><span><small>About</small></span></a>
+  <div class="container col-md-5 mb-5">
+    <a class="twitter-timeline" width="400" height="500" href="https://twitter.com/TheBoomDotCom?ref_src=twsrc%5Etfw">Tweets by TheBoomDotCom</a>
+  </div>
+  <nav class="navbar container mb-3">
+    <a style="color: black" href="/">Home</a>
+    <a style="color: black" href="consumers">Consumer</small></a>
+    <a style="color: black" href="professional">Professional</a>
+    <a style="color: black" href="#">About</a>
   </nav>
   <div class="container">
 
   </div>
   <div class="container mb-3">
-    <small>Telephone support is available: Monday - Friday 9 AM - 4 PM (PST) 1-888-230-3300</small>
+    <small>Toll free telephone support is available: Monday - Friday 9 AM - 4 PM (PST) 1-888-230-3300</small>
   </div>
   <div class="container">
     <small>
@@ -39,11 +43,12 @@
     </small>
     <div class="m-2"></div>
     <small>
-      Build by <a href="www.dominican.edu">Dominican University of California Student</a>
+      Build by a <a href="www.dominican.edu">Dominican University of California Student</a>
     </small>
   </div>
   <div class="">
 
   </div>
 </body>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </html>
